@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head/>
+  <h4>Drag the mouse to create a rectangle</h4>
+  <div id="main">
+    <div id="canvasAndButtons">
+      <div id="canvasWrapper">
+        <canvas id="canvas" width=300 height=300></canvas>
+      </div>
+      <div id="buttons">
+        <button id="save">Save</button>
+        <button id="clear">Clear</button>
+      </div>
+    </div>
+    <div id="formdiv">
+      <h4>Bounding Box</h4>
+      <table>
+        <form id=bboxCoords">
+          <tr>
+            <td><label for="fieldName">Name</label></td>
+            <td><input type="text" id="fieldName"></input></td>
+          </tr>
+          <tr>
+            <td>X Coordinates</td>
+            <td><input type="float" id="X1p" readonly></input</td>
+            <td><input type="float" id="X2p" readonly></input</td>
+          </tr>
+          <tr>
+            <td>>Y Coordinates</td>
+            <td><input id="Y1p" readonly></input></td>
+            <td><input id="Y2p" readonly></input></td>
+          </tr>
+        </form>
+      </table>
+    </div>
+    <div>
+  <script type="text/javascript" src="script.js"></script>
+</html>

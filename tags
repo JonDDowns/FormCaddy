@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$canvas	script.js	/^var $canvas=$("#canvas");$/;"	v
+X1p	script.js	/^var X1p, Y1p, maxX2p, maxY2p;$/;"	v
+canvas	drawingexample.js	/^var canvas, ctx, flag = false,$/;"	v
+canvas	script.js	/^var canvas = document.getElementById("canvas");$/;"	v
+canvasOffset	script.js	/^var canvasOffset=$canvas.offset();$/;"	v
+color	drawingexample.js	/^function color(obj) {$/;"	f
+ctx	script.js	/^var ctx = canvas.getContext("2d");$/;"	v
+draw	drawingexample.js	/^function draw() {$/;"	f
+erase	drawingexample.js	/^function erase() {$/;"	f
+findxy	drawingexample.js	/^function findxy(res, e) {$/;"	f
+handleMouseDown	script.js	/^function handleMouseDown(e) {$/;"	f
+handleMouseMove	script.js	/^function handleMouseMove(e) {$/;"	f
+handleMouseOut	script.js	/^function handleMouseOut(e) {$/;"	f
+handleMouseUp	script.js	/^function handleMouseUp(e) {$/;"	f
+isDown	script.js	/^var isDown = false;$/;"	v
+offsetX	script.js	/^var offsetX = canvasOffset.left;$/;"	v
+offsetY	script.js	/^var offsetY = canvasOffset.top;$/;"	v
+overlay	script.js	/^var overlay = document.getElementById("overlay");$/;"	v
+prevHeight	script.js	/^var prevHeight = 0;$/;"	v
+prevStartX	script.js	/^var prevStartX = 0;$/;"	v
+prevStartY	script.js	/^var prevStartY = 0;$/;"	v
+prevWidth	script.js	/^var prevWidth = 0;$/;"	v
+save	drawingexample.js	/^function save() {$/;"	f
+scrollX	script.js	/^var scrollX = $canvas.scrollLeft();$/;"	v
+scrollY	script.js	/^var scrollY = $canvas.scrollTop();$/;"	v
+startX	script.js	/^var startX, startY;$/;"	v
